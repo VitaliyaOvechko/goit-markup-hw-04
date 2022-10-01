@@ -131,19 +131,19 @@ img {
 /*hero*/
 
 .hero {
+        padding-top: 200px;
+        padding-bottom: 200px;
         text-align: center;
         background-color: var(--background-footer);
 }
 h1 {    
-        max-width: 696px;
-        margin-top: 0;
+        margin: 0 auto;
         margin-bottom: 30px;
-        margin-right: 0;
+        max-width: 696px;
 
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-        text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;      
         color: var(--white);
@@ -166,14 +166,6 @@ h1 {
         color: var(--white);
         background-color: var(--background-accent);
         cursor:pointer;
-}
-
-.hero-content {
-        display: inline-block;
-        padding-top: 200px;
-        padding-bottom: 200px;
-
-        text-align: center;
 }
 
 .visually-hidden {
