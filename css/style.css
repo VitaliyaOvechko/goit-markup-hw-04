@@ -140,7 +140,7 @@ img {
 /*hero*/
 
 .hero {
-        width: 1600px;
+        max-width: 1600px;
         padding-top: 200px;
         padding-bottom: 200px;
         margin: 0 auto;
@@ -356,7 +356,6 @@ h1 {
 .team-soc-link:focus {
         background-color: var(--background-accent);
         fill: var(--white);
-        cursor: pointer;
 }
 
 /* clients */
@@ -398,8 +397,7 @@ h1 {
 .clients-icon-link:hover,
 .clients-icon-link:focus {
         fill: var(--accent-color);
-        border: 1px solid #2196F3;
-        cursor: pointer;
+        border-color: var(--accent-color);
 }
 
 /* footer */
@@ -540,8 +538,6 @@ h1 {
 .project-title {
         margin-top: 0px;
         margin-bottom: 4px;
-        /* margin-left: 24px;
-        margin-right: 24px; */
 
         font-weight: 700;
         font-size: 18px;                
@@ -564,10 +560,6 @@ h1 {
         background-color: var(--backgground-portfolio-cards);
 }       
 
-/* .project-item:hover,
-.project-item:focus {
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
 .project-link {
         display: inline-block;
 }
@@ -575,7 +567,6 @@ h1 {
 .project-link:hover,
 .project-link:focus {
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-        cursor: pointer;
 }
 
 .cards{
